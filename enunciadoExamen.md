@@ -1,4 +1,4 @@
-### Parte 1: Modificación de Modelos y Base de Datos (2 puntos)
+### Parte 1: Modificación de Modelos y Base de Datos (2/2.5 puntos)
 
 #### 1. Añadir un campo obligatorio en eventos
 - Modifica el modelo `Evento` para incluir un nuevo campo `precio` (DecimalField con dos decimales).
@@ -13,9 +13,9 @@
 - Modifica el modelo `Reserva` para incluir un nuevo campo `precio_total` (DecimalField con dos decimales).
 - Este campo debe calcularse multiplicando el número de entradas reservadas por el precio del evento.
 
-**Rúbrica (0.5 puntos):**
-- 0.25 puntos: Implementación correcta del campo `precio_total`.
-- 0.25 puntos: Cálculo automático del precio total en base a la cantidad de entradas.
+**Rúbrica (0.5/1 puntos):**
+- 0.5 puntos: Implementación correcta del campo `precio_total`.
+- + 0.5 puntos: Cálculo automático del precio total en base a la cantidad de entradas.
 
 #### 3. Crear un nuevo modelo `Calificacion`
 Este modelo debe contener los siguientes campos:
