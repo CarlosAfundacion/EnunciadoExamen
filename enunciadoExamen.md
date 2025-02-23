@@ -1,4 +1,4 @@
-### Parte 1: Modificación de Modelos y Base de Datos (3 puntos)
+### Parte 1: Modificación de Modelos y Base de Datos (2 puntos)
 
 #### 1. Añadir un campo obligatorio en eventos
 - Modifica el modelo `Evento` para incluir un nuevo campo `precio` (DecimalField con dos decimales).
@@ -19,8 +19,8 @@
 
 #### 3. Crear un nuevo modelo `Calificacion`
 Este modelo debe contener los siguientes campos:
-- `evento`: Relación con el evento calificado.
-- `usuario`: Relación con el usuario que califica.
+- `evento`: Evento calificado.
+- `usuario`: Usuario que califica.
 - `puntuacion`: Valor entre 1 y 5.
 - `fecha_creacion`: Fecha en la que se realizó la calificación.
 
@@ -30,7 +30,7 @@ Este modelo debe contener los siguientes campos:
 
 ---
 
-### Parte 2: Implementación de Endpoints REST con APIView (7 puntos)
+### Parte 2: Implementación de Endpoints REST con APIView (8 puntos)
 
 #### 4. Creación de un endpoint para crear reservas con cálculo de precio total
 - Implementa un nuevo endpoint `POST /reservas/crear/` que permita a un usuario realizar una reserva.
@@ -66,5 +66,6 @@ Uso obligatorio de `select_related` para optimizar el rendimiento y evitar consu
 - 1 punto: Validación de puntuación dentro del rango permitido.
 
 ### **ENTREGA:**
-- Graba un vídeo en el que se vea todo lo que has desarrollado. Los models modificados, las pruebas desde postman de los APIViews
+- Graba un vídeo en el que se vea todo lo que se solicita en la rúbrica. Agregaciones en el panel de administración, archivo models.py modificado, endpoints probados desde Postman.
+- Añade el código de tu proyecto, el archivo conexiones_navegador y tu vídeo de captura de pantalla a un archivo comprimido. Súbelo a Google Classroom.
 
