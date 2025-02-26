@@ -1,7 +1,6 @@
 
 # **EXAMEN  - DESARROLLO DE INTERFACES MÓVILES CON FIREBASE Y MVVM**
 
-## **Objetivo**
 En este examen, implementarás una nueva funcionalidad en el proyecto de la aplicación que has desarrollado durante el trimestre. 
 Como base puedes usar el proyecto que adjunto en classroom o el proyecto que has desarrollado tú.
 Si eliges mi proyecto, un usuario válido es **j@j.com** con contraseña **123456**
@@ -85,6 +84,6 @@ Al iniciar, el Fragment deberá cargar **un elemento aleatorio de la base de dat
 
 ## **Entrega**
 - **Classroom**:
-  - Sube a Classroom tu código comprimido y un vídeo en el que se muestren todas las funcionalidades pedidas.
+  - Sube a Classroom tu código, el monitoreo de conexiones de red y un vídeo en el que se muestren todas las funcionalidades pedidas, todo en único archivo con el formato **NombreApellido.zip**.
 
 ---
