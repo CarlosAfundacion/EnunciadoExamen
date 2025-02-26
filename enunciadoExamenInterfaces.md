@@ -34,6 +34,14 @@ Al iniciar, el Fragment deberá cargar **un elemento aleatorio de la base de dat
 - Implementa la lógica para seleccionar un **elemento aleatorio** de la base de datos
 - Recupera un **elemento aleatorio** de la base de datos al abrir el Fragment.
 - Cambia el **elemento aleatorio** al pulsar el botón.
+- Puedes recoger un elemento aleatorio de una lista con el siguiente código:
+  
+  ```
+  import java.util.Random;
+  Random random = new Random();
+  int randomIndex = random.nextInt(recipeList.size());
+  Recipe reicpe = RecipeList.get(randomIndex)
+  ```
 
 ### **3. Organización del código y arquitectura**
 - Sigue el patrón **MVVM**, separando correctamente **Model**, **ViewModel** y **Repository**.
@@ -56,7 +64,7 @@ Al iniciar, el Fragment deberá cargar **un elemento aleatorio de la base de dat
 | **4. Recuperación del elemento aleatorio desde Firebase al abrir el Fragment** | Se obtiene correctamente un **elemento aleatorio** almacenado en Firebase al iniciar el Fragment. | **1 punto** |
 | **5. Cambio de contenido al pulsar el botón** | Al pulsar el botón, se selecciona y muestra **otro elemento aleatorio** de la base de datos. | **1 punto** |
 | **6. Uso correcto de MVVM y LiveData** | Se ha implementado correctamente la arquitectura **MVVM**, separando **Model, ViewModel y Repository**, y utilizando **LiveData**. | **2 punto** |
-| **7. Uso adecuado de `strings.xml`** | **No** se han usado strings en crudo dentro de los archivos XML, sino que se han referenciado correctamente desde `strings.xml`. | **0,5 punto** |
+| **7. XML sin texto en crudo** | **No** se han usado strings en crudo dentro de los archivos XML, sino que se han enlazado en el sitio adecuado. | **0,5 punto** |
 | **8. Accesibilidad** | Se han implementado prácticas compatibles con lectores de pantalla. | **0,5 punto** |
 | **9. Código limpio y organizado** | El código está bien estructurado, con nombres de variables y métodos adecuados, siguiendo las buenas prácticas de desarrollo. | **0,5 punto** |
 
