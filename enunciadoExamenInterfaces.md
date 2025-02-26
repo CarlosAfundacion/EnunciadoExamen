@@ -2,7 +2,10 @@
 # **EXAMEN  - DESARROLLO DE INTERFACES MÓVILES CON FIREBASE Y MVVM**
 
 ## **Objetivo**
-En este examen, implementarás una nueva funcionalidad en el proyecto de la aplicación que has desarrollado durante el trimestre. La práctica consistirá en:
+En este examen, implementarás una nueva funcionalidad en el proyecto de la aplicación que has desarrollado durante el trimestre. 
+Como base puedes usar el proyecto que adjunto en classroom o el proyecto que has desarrollado tú.
+Si eliges mi proyecto, un usuario válido es **j@j.com** con contraseña **123456**
+La práctica consistirá en:
 
 1. **Añadir un nuevo Fragment** accesible desde el **Navigation Drawer**.
 2. **Mostrar un elemento aleatorio de Firebase** (título, imagen y descripción) dentro de este Fragment.
