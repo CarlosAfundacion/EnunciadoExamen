@@ -46,7 +46,7 @@ Al iniciar, el Fragment deberá cargar **un elemento aleatorio de la base de dat
 
 ---
 
-## **Rúbrica de Evaluación **
+## **Rúbrica de Evaluación**
 
 | **Criterio** | **Descripción** | **Puntuación** |
 |-------------|---------------|---------------|
