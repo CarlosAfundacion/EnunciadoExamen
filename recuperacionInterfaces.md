@@ -9,13 +9,13 @@ Deberás implementar las siguientes mejoras en la aplicación móvil desarrollad
  **Requisito**: Mostrar en **DashboardFragment** únicamente los elementos que **no han sido marcados como favoritos**.  
  **Tareas**:  
 - Modificar el `DashboardRepository` para que filtre los datos obtenidos de Firebase y **excluya los elementos marcados como favoritos por el usuario actual**.  
-- Implementar este filtrado en el **DashboardViewModel**.  
+- Vincular este filtrado en el **DashboardViewModel**.  
 - Actualizar el `RecyclerView` en **DashboardFragment** para que solo muestre los elementos que no están en favoritos.  
 - Modificar la consulta a Firebase para que excluya los elementos cuyo `id` esté dentro de la lista de favoritos del usuario.  
 - En el adaptador del `RecyclerView`, asegurarse de que la lista se actualiza correctamente cuando los datos cambian.  
 
 ---
-### **3. Eliminacion de todos los favoritos desdeel `NavigationDrawer`**
+### **2. Eliminacion de todos los favoritos desdeel `NavigationDrawer`**
  **Requisito**:  Al pulsar en la opción `Limpiar Favoritos` se eliminará toda la lista de favoritos asociada al usuario.
 
  **Tareas**:  
@@ -23,7 +23,7 @@ Deberás implementar las siguientes mejoras en la aplicación móvil desarrollad
  - Crear un método en el repository que elimine el nodo `favoritos` asociado al usuario.
  - Cargar DashboardFragment``con todos los elementos.
 ---
-### **2. Almacenamiento del usuario en SharedPreferences**  
+### **3. Almacenamiento del usuario en SharedPreferences**  
  **Requisito**: Guardar en **SharedPreferences** el usuario autenticado para evitar que tenga que iniciar sesión de nuevo cada vez que se reinicie la app.  
  **Tareas**:  
 - Al hacer **login**, almacenar en `SharedPreferences` el **UID del usuario autenticado**.  
